@@ -228,19 +228,7 @@ streamlit run app/app.py
 
 ---
 
-## 📷 Screenshots
 
-### Home Page
-
-*(Add screenshot here)*
-
----
-
-### Prediction Result
-
-*(Add screenshot here)*
-
----
 
 ## 📈 Future Improvements
 
@@ -259,10 +247,6 @@ streamlit run app/app.py
 
 Aspiring Machine Learning Engineer
 
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
-
----
 
 ## ⭐ Support
 

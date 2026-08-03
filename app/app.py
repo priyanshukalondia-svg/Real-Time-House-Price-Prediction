@@ -1,8 +1,16 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 from pathlib import Path
+
+try:
+    import joblib
+except ModuleNotFoundError:
+    import subprocess
+    import sys
+
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+    import joblib
 
 # ==========================================================
 # PAGE CONFIG

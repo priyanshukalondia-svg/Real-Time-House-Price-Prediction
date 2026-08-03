@@ -14,7 +14,7 @@ The application allows users to enter property details through an interactive we
 
 ## 🚀 Live Demo
 
-**Streamlit App:** *(Add your Streamlit link here after deployment)*
+**Streamlit App:** *https://house-predictor-by-priyanshu.streamlit.app/*
 
 ---
 

@@ -6,11 +6,11 @@ from pathlib import Path
 try:
     import joblib
 except ModuleNotFoundError:
-    import subprocess
-    import sys
-
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
-    import joblib
+    st.error(
+        "Missing dependency: joblib is not installed. "
+        "Make sure joblib is listed in requirements.txt and redeploy your app."
+    )
+    st.stop()
 
 # ==========================================================
 # PAGE CONFIG
